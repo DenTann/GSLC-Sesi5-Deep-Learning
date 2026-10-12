@@ -1,0 +1,7 @@
+model_name,trainable_params,total_params,converged_epochs,duration_seconds,final_val_acc,test_acc,macro_f1
+B1_FromScratch,11181642,11181642,9,101.3,0.3423,0.3706,0.3356
+B2_FeatureExtraction,5130,11181642,20,223.32,0.9262,0.8924,0.8923
+B3_FineTuning,8398858,11181642,10,105.75,0.9463,0.8924,0.8916
+B4_NoAugmentation,5130,11181642,15,96.37,0.9799,0.8954,0.8946
+B4_WithAugmentation,5130,11181642,15,155.16,0.9329,0.8863,0.8859
+B5_MobileNetV3,1528106,1528106,9,93.1,0.8121,0.7543,0.7424

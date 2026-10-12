@@ -1,0 +1,62 @@
+[
+    {
+        "model_name": "B1_FromScratch",
+        "trainable_params": 11181642,
+        "total_params": 11181642,
+        "converged_epochs": 9,
+        "duration_seconds": 101.3,
+        "final_val_acc": 0.3423,
+        "test_acc": 0.3706,
+        "macro_f1": 0.3356
+    },
+    {
+        "model_name": "B2_FeatureExtraction",
+        "trainable_params": 5130,
+        "total_params": 11181642,
+        "converged_epochs": 20,
+        "duration_seconds": 223.32,
+        "final_val_acc": 0.9262,
+        "test_acc": 0.8924,
+        "macro_f1": 0.8923
+    },
+    {
+        "model_name": "B3_FineTuning",
+        "trainable_params": 8398858,
+        "total_params": 11181642,
+        "converged_epochs": 10,
+        "duration_seconds": 105.75,
+        "final_val_acc": 0.9463,
+        "test_acc": 0.8924,
+        "macro_f1": 0.8916
+    },
+    {
+        "model_name": "B4_NoAugmentation",
+        "trainable_params": 5130,
+        "total_params": 11181642,
+        "converged_epochs": 15,
+        "duration_seconds": 96.37,
+        "final_val_acc": 0.9799,
+        "test_acc": 0.8954,
+        "macro_f1": 0.8946
+    },
+    {
+        "model_name": "B4_WithAugmentation",
+        "trainable_params": 5130,
+        "total_params": 11181642,
+        "converged_epochs": 15,
+        "duration_seconds": 155.16,
+        "final_val_acc": 0.9329,
+        "test_acc": 0.8863,
+        "macro_f1": 0.8859
+    },
+    {
+        "model_name": "B5_MobileNetV3",
+        "trainable_params": 1528106,
+        "total_params": 1528106,
+        "converged_epochs": 9,
+        "duration_seconds": 93.1,
+        "final_val_acc": 0.8121,
+        "test_acc": 0.7543,
+        "macro_f1": 0.7424
+    }
+]
